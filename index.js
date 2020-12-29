@@ -31,26 +31,32 @@ client.on("message", async function (msg) {
 });
 
 client.on('message', msg => {
-    if (msg.content === '/bitch') {
-        msg.reply("<@643918287507292187> Thats a good example.");
+    if (msg.content === '/sarah') {
+        msg.channel.send("Oh sarah? Yea she's a bitch.");
     }
   });
 
   client.on('message', msg => {
-    if (msg.content === '/bitch 2') {
-        msg.reply("<@429019728162324502> Thats another good example.");
+    if (msg.content === '/sudi') {
+        msg.channel.send("Sudi?? She's a bigger bitch");
     }
   });
 
   client.on('message', msg => {
-    if (msg.content === '/british bitch') {
-        msg.reply("<@281755913571008512> That would be him.");
+    if (msg.content === '/zee') {
+        msg.channel.send("fucking british bitch he's like all like 'ohhh i like me sweets and i like to watch the youchews on chewsday, i'm bri-ish' ");
     }
   });
 
   client.on('message', msg => {
     if (msg.content === '/april') {
-        msg.reply("<@505294688991969299> iii here we goo i rlly like ur vibes and i like how u didn’t pressure me into anything. once u first texted me and we started texting and shi. i like how ur always ina good mood and never lets anything bring yhu down. i love how ur always so excited to talk to me and call me. i love ur personality. i rlly like how pretty you are. u like my princess. there’s more but ima cut it short. ik it’s only been 4 days. but i feel like i known for 4 months and i can’t wait until this quarantine is over so we can actually link. cuz i can’t wait to see yhu. so i have yhu in my arms. and yhu by my side :heart: :heart:.");
+        msg.channel.send("iii here we goo i rlly like ur vibes and i like how u didn’t pressure me into anything. once u first texted me and we started texting and shi. i like how ur always ina good mood and never lets anything bring yhu down. i love how ur always so excited to talk to me and call me. i love ur personality. i rlly like how pretty you are. u like my princess. there’s more but ima cut it short. ik it’s only been 4 days. but i feel like i known for 4 months and i can’t wait until this quarantine is over so we can actually link. cuz i can’t wait to see yhu. so i have yhu in my arms. and yhu by my side :heart: :heart:.");
+    }
+  });
+
+  client.on('message', msg => {
+    if (msg.content === '/sky') {
+        msg.channel.send("Owo hug <@598416847938781194>");
     }
   });
 
@@ -176,4 +182,4 @@ client.on("message", async(message) => {
     }
 })
 
-client.login("Nzg3MjY0NzIyMDMwNDI4MTcw.X9SbaA.Izu1iE3tTN29K3vNhuSPrPFvIwE")
+client.login("Nzg3MjY0NzIyMDMwNDI4MTcw.X9SbaA.dxmw101UEnt85oW_JuZRee0YimA")
